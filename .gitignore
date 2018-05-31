@@ -1,0 +1,17 @@
+# Cache and logs and sessions
+/var/*
+# Parameters
+/app/config/parameters.yml
+/app/config/parameters.yml.dist
+# Managed by Composer
+/bin/
+/vendor/
+# Assets
+/web/bundles/
+/web/css/
+# PHPUnit
+/phpunit.xml.dist
+# php-cs-fixer cache
+/.php_cs.cache
+# other
+/symfony
